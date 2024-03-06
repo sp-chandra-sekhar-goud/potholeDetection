@@ -1,0 +1,31 @@
+.Hero{
+    position: relative;
+}
+
+.Hero img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.Hero .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.Hero{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1#title{
+    z-index: 10;
+    font-size: 4vw;
+    padding-bottom: 10vw;
+    text-decoration: underline;
+    position: absolute;
+    color: whitesmoke;
+}
